@@ -80,6 +80,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CacheManager.Serialization.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CacheManager.Serialization.ProtoBuf", "src\CacheManager.Serialization.ProtoBuf.Net45\CacheManager.Serialization.ProtoBuf.csproj", "{C24DE3F3-140D-4CDB-82BF-DEF81AFD3215}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CacheManager.Serialization.MsgPack", "src\CacheManager.Serialization.MsgPack\CacheManager.Serialization.MsgPack.csproj", "{FE8043CD-1FAA-4B09-B990-CF092A7C71D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -158,6 +160,10 @@ Global
 		{C24DE3F3-140D-4CDB-82BF-DEF81AFD3215}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C24DE3F3-140D-4CDB-82BF-DEF81AFD3215}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C24DE3F3-140D-4CDB-82BF-DEF81AFD3215}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE8043CD-1FAA-4B09-B990-CF092A7C71D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE8043CD-1FAA-4B09-B990-CF092A7C71D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE8043CD-1FAA-4B09-B990-CF092A7C71D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE8043CD-1FAA-4B09-B990-CF092A7C71D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -181,5 +187,6 @@ Global
 		{7A27C74A-461A-495B-AECB-254703A9F047} = {3CBC4C94-1EE1-44E8-BB56-620B8A7F7777}
 		{3F16DD5A-9781-4090-9CD3-16C54300B372} = {3CBC4C94-1EE1-44E8-BB56-620B8A7F7777}
 		{C24DE3F3-140D-4CDB-82BF-DEF81AFD3215} = {8099505D-0783-4352-8BAD-F7F5E7D709FD}
+		{FE8043CD-1FAA-4B09-B990-CF092A7C71D0} = {8099505D-0783-4352-8BAD-F7F5E7D709FD}
 	EndGlobalSection
 EndGlobal
